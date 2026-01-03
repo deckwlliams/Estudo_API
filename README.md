@@ -1,21 +1,39 @@
-# Estudo_API
+# 🚀 Estudo_API
 
-API REST feita com Java + Spring Boot para estudo de endpoints CRUD.
+API REST desenvolvida em **Java com Spring Boot**, focada no estudo de
+boas práticas de backend, estruturação de projetos e operações CRUD.
 
-## Tecnologias
+Este projeto faz parte do meu aprendizado prático em desenvolvimento backend.
+
+---
+
+## 🛠 Tecnologias utilizadas
 - Java
 - Spring Boot
+- Spring Data JPA
 - Maven
-- SQL
+- Banco de Dados SQL
+- API REST
 
-## Como executar
-1. `git clone https://github.com/deckwlliams/Estudo_API`
-2. `cd Estudo_API`
-3. `mvn spring-boot:run`
+---
 
-## Funcionalidades
-✔ Listar itens  
-✔ Criar itens  
-✔ Editar itens  
-✔ Deletar itens
+## 📌 Funcionalidades
+- Criar registros (POST)
+- Listar registros (GET)
+- Atualizar registros (PUT)
+- Remover registros (DELETE)
 
+---
+
+## ▶️ Como executar o projeto
+
+### Pré-requisitos
+- Java instalado
+- Maven instalado
+- IDE (IntelliJ, Eclipse ou VS Code)
+
+### Passo a passo
+```bash
+git clone https://github.com/deckwlliams/Estudo_API.git
+cd Estudo_API
+mvn spring-boot:run
